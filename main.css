@@ -1,0 +1,110 @@
+html, body {
+    font-family: "Roboto";
+}
+nav {
+    color: black!important;
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:#1d76ba!important;
+    text-transform: uppercase
+}
+
+.navbar-brand:hover {
+    font-weight: 800;
+    letter-spacing: 4px;
+    color:#1d76ba!important;
+    text-transform: uppercase;
+    transition: all ease-in 0.3s;
+}
+
+.skyblue {
+    height: 400px;
+    background-color: #1d76ba;
+    color: white;
+    padding-top: 0px!important;
+    max-height: 100%;
+}
+
+.white {
+    height: 400px;
+    background-color: #FFF;
+    color: #000;
+    /*padding-top: 0px!important;*/
+    max-height: 100%;
+}
+
+.btn-secondary {
+    color: #1d76ba!important;
+    background-color: #FFF!important;
+    text-transform: uppercase;
+    letter-spacing: 2;
+    font-weight: 900;
+}
+
+.centerme {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#aboutpara {
+    line-height: 200%;
+}
+
+#faqpara {
+    line-height: 200%;
+}
+.octocat {
+    height: 20em;
+    margin: 0;
+    padding: 0;
+}
+.gitanimation {
+    padding: 10px;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.active {
+    font-weight: 700;
+}
+
+.footer {
+	/*margin-top: 60px;*/
+	width: 100%;
+	min-height: 60px;
+	background-color: #fff;
+	color: #1d76ba;
+}
+.footer > .container > * {
+	margin: 20px 0;
+}
+
+#contact {
+	background: #1d76ba;
+	color: #fff;
+}
+
+.stylecontact {
+    padding: 50px;
+}
+#checkgitlink {
+    border: 2px solid #1d76ba;
+    /*margin-top: 100px !important;*/
+}
+.link:hover {
+    text-decoration: none;
+    color: #1d76ba;
+}
+#checkgit {
+    margin-top: 50px;
+}

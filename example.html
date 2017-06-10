@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+Website Coded and Designed by James Fu and Rishi Pappu
+-->
+
+<html>
+<head>
+	<title>C9 Autowake</title>
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- mobile viewport-->
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<!-- bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<!-- main css -->
+	<link href="https://preview.c9users.io/jamesnotfu/cloud9-autowake/main.css" rel="stylesheet" type="text/css">
+	<!-- website icon -->
+	<link href="https://preview.c9users.io/jamesnotfu/cloud9-autowake/autowake.png" rel="shortcut icon">
+	<!-- font mfizz icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css" rel="stylesheet" type="text/css">
+	<!-- font awesome icons -->
+	<script src="https://use.fontawesome.com/e2dfbf10a8.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="nav">
+	<script type="text/javascript">
+	// Adjust padding of navbar to match navbar height after fixed position
+	var onResize = function() {
+	// Apply dynamic padding at the top of the body according to the fixed navbar height
+	$("body").css("padding-top", $(".navbar-fixed-top").height());
+	};
+	// Attach the function to the window resize event
+	$(window).resize(onResize);
+	// Call it also when the page is ready after load or reload
+	$(function() {
+		onResize();
+	});
+	</script>
+	<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+				    <span class="sr-only">Toggle navigation</span>
+				    <span class="icon-bar"></span> <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				</button>
+				<span class="navbar-brand">Autowake</span>
+			</div>
+
+
+			<div class="navbar-collapse collapse navbar-right" id="navbar">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="#home">Home</a>
+					</li>
+
+
+					<li>
+						<a href="#about">About</a>
+					</li>
+
+
+					<li>
+						<a href="#faq">FAQ</a>
+					</li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+		<!--/.container-fluid -->
+	</nav>
+
+
+	<section class="col-md-12 skyblue text-center align-middle" id="home">
+	    <div class="centerme">
+	         <img src="https://preview.c9users.io/jamesnotfu/cloud9-autowake/autowake.png" width="90px">
+        		<h1>
+        		    <strong>Hello, I'm Autowake</strong>
+        	    </h1>
+		    <a href="#learnmore" class="link"><button type="button" class="btn btn-secondary">Learn More</button></a>
+		</div>
+	</section>
+	<section class="col-md-12 white text-center container" id="about">
+		<div id="learnmore"></div>
+		<br/>
+	    <div class="centerme col-md-10 col-sm-10 col-xs-10">
+    	    <h2>
+    	        <strong>
+    	            Autowake is an HTML file.
+    	        </strong>
+    	    </h2>
+	    	<h4 id="aboutpara">
+		    	Servers hosted with the cloud-based IDE service <a href="https://c9.io">Cloud9</a> go to hibernation every couple of hours, and when loading a URL hosted in Cloud9, it will not load the files correctly. This is an auto-invoking script that wakes the Cloud9 server up BEFORE loading the URL
+    		</h4>
+		</div>
+	</section>
+		<section class="col-md-12 skyblue text-center" id="faq">
+	    	    <div class="col-md-10 col-sm-10 col-xs-10 centerme">
+	    	    	<h2>
+		    	        <strong>
+		    	            FAQ.
+		    	        </strong>
+	    	    	</h2>
+		    		<h4 id="faqpara" class="text-center">
+		    			<strong>How does it work?</strong><br>
+		    			Autowake is similar to a domain-forwarding/domain-masking page. It masks the current URL, and while doing this it waits until everything is loaded n' ready before loading the files.<br><br>
+		    			<strong>How do I use it?</strong><br>
+		    			Visit the link below and check out the README file for instructions. If you still don't get it contact us!
+		    		</h4>
+	    		</div>
+			</div>
+	</section>
+	<section class="col-md-12 white text-center">
+		<div class="gitanimation centerme">
+			<img class="octocat" src="https://preview.c9users.io/jamesnotfu/cloud9-autowake/octocat.png?_c9_id=livepreview1&_c9_host=https://ide.c9.io">
+			<br/>
+			<button type="button" class="btn btn-primary" id="checkgit">
+				<a href="https://github.com/jamesnotfu/c9-autowake" id="checkgitlink" class="link" style="border: none!important; color: white; text-decoration: none!important">
+				Check It Out On GitHub
+				</a>
+			</button>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<div class="row sm text-center stylecontact col-md-12">
+				<h2>Contact Us</h2>
+				<h4>Our usual response time is within 24 hours.</h4>
+				<div class="col-md-8 col-xs-8">
+					<div class="col-md-4 col-xs-4 text-center center-block">
+						<h1>
+							<a href="mailto:kawaiikid47@gmail.com">
+								<span class="fa-stack fa-medium">
+									<i class="fa fa-circle fa-stack-2x" style="color: #9bd06c"></i>
+									<i class="fa fa-envelope-o fa-stack-1x" style="color: #fff"></i>
+								</span>
+							</a>
+						</h1>
+					</div>
+					<div class="col-md-4 col-xs-4">
+
+					</div>
+					<div class="col-md-4 col-xs-4">
+						<h1>
+							<a href="https://www.github.com/jamesnotfu">
+								<span class="fa-stack fa-medium">
+									<i class="fa fa-circle fa-stack-2x" style="color: #9bd06c"></i>
+									<i class="fa fa-github fa-stack-1x" style="color: #fff"></i>
+								</span>
+							</a>
+						</h1>
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+	</section>
+	</div>
+
+	<div class="footer">
+		<div class="container text-center">
+
+			<p>Copyright &copy; Autowake 2016</p>
+			
+		</div>
+	</div>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
