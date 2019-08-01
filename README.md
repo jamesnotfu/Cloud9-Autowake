@@ -1,5 +1,5 @@
-# c9-autowake
-Cloud9 hosted URLs go to sleep every couple hours. With a C9 hosted website, this may result in pages displaying blank content. This code wakes up the C9 server before loading the page.
+# Cloud9-Autowake
+Cloud9 hosted URLs go to sleep every couple hours. With a C9 hosted website, this may result in pages displaying blank content. This code is a solution to bypass the default behavior of C9 servers.
 
-# EDIT 1/27/18
-Sorry, but this is no longer a solution to cloud9 hosted websites as AWS is now integrated with Cloud9. No additional commits will be made to this project.
+# EDIT 7/31/19
+This soliution is now defunct as Cloud9 is obsolete. No additional commits will be made to this project.
